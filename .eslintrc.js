@@ -15,7 +15,7 @@ module.exports = {
     'react'
   ],
   'rules': {
-    'semi': [1, 'always'],
+    'semi': [2, 'always'],
     'quotes': [1, 'single'],
     'indent': [1, 2]
   }
