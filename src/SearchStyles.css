@@ -1,0 +1,166 @@
+.SearchStyles {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    margin: 20px;
+    width: 80%;
+}
+/*-------------------------------------*/
+
+/* Input Section */
+
+.inputContainer{
+    position: relative;
+    align-items: center;
+    width: 40%;
+}
+
+.inputContainer img {
+    position: absolute;
+    top: 16px;
+    z-index: 5;
+    left: 10px;
+}
+
+input {
+    font-size: 16px;
+    color: #8F8F8F;
+    font-weight: 500;
+    height: 47px;
+    width: 100%;
+    border: solid 1px #CDCDCD;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+    padding: 1px 10px 0px 37px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/*-------------------------------------*/
+
+
+/* Artist Info Section */
+
+.artistInfo {
+    color: white;
+    padding-left: 20px;
+  }
+
+.artistName {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.followerCount {
+    -webkit-font-smoothing: antialiased;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: 'lnum' on;
+    font-size:18px;
+}
+
+/*-------------------------------------*/
+
+
+/* Background of Hero Section */
+
+.heroContainer{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.backgroundHero {
+    position: absolute;    
+    width: 1008px;
+    margin:40px;    
+    border-radius: 4px;
+    box-shadow: none !important;
+    padding: 30px 30px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundHero img {
+    filter: blur(2px);
+    max-width: none;
+    width:110%;
+    transform: translate(-50px,400px);
+
+}
+/*-------------------------------------*/
+
+
+/* Profile Avatar Section */
+
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 40000;
+}
+
+.profileImg {
+    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .profileDetails {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+
+.followButton {
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    min-width: 160px;
+    justify-content: center;
+    border: 1px solid #00b4b3;
+    border-radius: 2px;
+    margin: 10px auto 0px;
+    cursor: pointer;
+    background-color: #00b4b3;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    user-select:none;
+}
+
+
+.bandsLogo {
+    width: 190px;
+    height: 39px;
+    margin-bottom: 20px;
+}
